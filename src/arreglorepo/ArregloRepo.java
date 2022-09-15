@@ -18,6 +18,7 @@ public class ArregloRepo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Gestión de Arreglos");
         Scanner x = new Scanner(System.in);
         System.out.print("Digite el tamaño del arreglo: ");
         int tam = x.nextInt();
