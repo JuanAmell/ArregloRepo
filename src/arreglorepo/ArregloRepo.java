@@ -24,6 +24,8 @@ public class ArregloRepo {
         int tam = x.nextInt();
         int[] arreglo = new int[tam];
         
+        //captura de las posiciones
+        
         for(int i = 0; i < arreglo.length; i++){
             System.out.print("Digite la posición " + (i + 1) + " del arreglo: ");
             int pos = x.nextInt();
@@ -31,6 +33,8 @@ public class ArregloRepo {
         }
         
         System.out.println("");
+        
+        //escritura del arreglo
         
         for(int k : arreglo){
             System.out.print( k + " ");
